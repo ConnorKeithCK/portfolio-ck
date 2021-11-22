@@ -1,9 +1,16 @@
 import React from "react";
 import NavbarStyles from '../styles/Navbar.module.css';
+import { FcDocument, FcFeedback } from 'react-icons/fc'
+import { BsLinkedin, BsTerminalFill } from 'react-icons/bs'
 
 function Navbar() {
     return (
-        <div className={NavbarStyles.container}>Navigation!</div>
+        <div className={NavbarStyles['container']}>
+            <FcDocument size={70} />
+            <FcFeedback size={70} />
+            <BsLinkedin size={70} />
+            <BsTerminalFill size={70} />
+            </div>
     )
 }
 

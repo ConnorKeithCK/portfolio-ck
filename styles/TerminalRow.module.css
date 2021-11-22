@@ -1,14 +1,22 @@
 .terminal-body {
     width: 100%;
+    height: 200px;
     border: none;
-    padding: 0,
+    background-color: black;
+    color: white;
+}
+
+.command-prompt {
+    width: 220px;
 }
 
 .command-body {
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: row;
     border: none;
-    height: 300px;
+    height: 24px;
 }
 
 .command-input {
@@ -18,6 +26,7 @@
     text-align: left;
     font-size: 16px;
     width: 100%;
+    word-wrap: break-word;
 }
 
 .command-input:focus {

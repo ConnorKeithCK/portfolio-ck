@@ -1,4 +1,11 @@
 .container {
     background-color: #b6b6b6;
-    height: 140px;
+    height: 100px;
+    width: 60%;
+    border-radius: 20px;
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    margin: 10px auto;
 }
