@@ -29,3 +29,5 @@ Although pretty much all of my industry experience has revolved around full stac
   <li>Serverless functions</li>
   <li>System Diagrams</li>
  </ol>
+
+I consider myself a lifelong learner and really do enjoy picking up new languages & skills. I'm interested in all kinds of software development and technology in general, not just web development! I pick up new skills at a very quick pace and love a good challenge!
