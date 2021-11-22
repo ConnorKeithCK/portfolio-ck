@@ -10,7 +10,7 @@ I am graduating (or have graduated depdending on when you're reading this :P) fr
 
 # Projects
 
-Unfortunately, most of my work hides behind company firewalls and is therefore inaccessible. Some of my public work includes:
+Unfortunately, most of my work hides behind company firewalls and is therefore inaccessible. Some of my public work(not open source, but projects have been released) includes:
 
 
 ## Joot
