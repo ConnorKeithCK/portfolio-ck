@@ -1,11 +1,20 @@
 .container {
     background-color: #b6b6b6;
     height: 100px;
-    width: 60%;
+    width: 40%;
     border-radius: 20px;
+    display: flex;
+    flex-direction: row;
     position: fixed;
     left: 50%;
     bottom: 0;
+    align-items: center;
+    justify-content: space-evenly;
     transform: translate(-50%);
     margin: 10px auto;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 105px;
 }
