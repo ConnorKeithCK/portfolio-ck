@@ -10,12 +10,13 @@ function Navbar() {
 
     return (
         <div className={NavbarStyles['container']}>
+            {/* Map later */}
             <span className={NavbarStyles['tooltip']}>{selectedIcon}</span>
-            <BsFileTextFill onMouseOver={() => setSelectedIcon("Resume")} size={70} color="#9eeaff" />
-            <BsEnvelopeFill onMouseOver={() => setSelectedIcon("Contact me")} size={70} color="#0094bd"/>
-            <BsLinkedin onMouseOver={() => setSelectedIcon("LinkedIn")} size={70} color="#2600ff"/>
-            <BsTerminalFill onMouseOver={() => setSelectedIcon("Interactive Terminal")} size={70}  />
-            <BsGithub onMouseOver={() => setSelectedIcon("GitHub")} size={70} color="#900fd1" />
+            <BsFileTextFill onMouseOut={() => setSelectedIcon("")} onMouseOver={() => setSelectedIcon("Resume")} size={70} color="#9eeaff" />
+            <BsEnvelopeFill onMouseOut={() => setSelectedIcon("")} onMouseOver={() => setSelectedIcon("Contact me")} size={70} color="#0094bd"/>
+            <BsLinkedin onMouseOut={() => setSelectedIcon("")} onMouseOver={() => setSelectedIcon("LinkedIn")} size={70} color="#2600ff"/>
+            <BsTerminalFill onMouseOut={() => setSelectedIcon("")} onMouseOver={() => setSelectedIcon("Interactive Terminal")} size={70}  />
+            <BsGithub onMouseOut={() => setSelectedIcon("")} onMouseOver={() => setSelectedIcon("GitHub")} size={70} color="#900fd1" />
         </div>
     )
 }

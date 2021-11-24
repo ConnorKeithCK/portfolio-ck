@@ -1,0 +1,21 @@
+.wrapper {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    border: 1px solid slategray;
+}
+
+.resume {
+    width: 70% !important;
+	height: 70% !important;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.resume-wrapper {
+    width: 100% !important;
+	height: 100% !important;
+	margin: auto;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
