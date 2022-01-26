@@ -1,9 +1,11 @@
 .container {
-    background-color: #b6b6b6;
+    background: rgba(182, 182, 182, .4);
     height: 100px;
     width: 40%;
     border-radius: 20px;
     display: flex;
+    border: 1px solid white;
+    border-style: outset;
     flex-direction: row;
     position: fixed;
     left: 50%;
@@ -17,4 +19,10 @@
 .tooltip {
     position: absolute;
     bottom: 105px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.icon {
+    cursor: pointer;
 }

@@ -8,3 +8,8 @@
     width: 100%;
     height: 25px;
 }
+
+.homeIcon {
+    position: absolute;
+    left: 5;
+}

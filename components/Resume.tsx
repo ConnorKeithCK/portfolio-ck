@@ -9,11 +9,11 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function Resume() {
     return (
-            <Window></Window>
-                // {/* <Document file={MyResume} className={ResumeStyles['resume-wrapper']} onLoadSuccess={() => console.log('yeehee')}>
-                //     <Page width={1500} className={ResumeStyles['resume']} pageNumber={1}/>
-                // </Document> */}
-
+            <Window windowContent={
+                <Document file={MyResume} className={ResumeStyles['resume-wrapper']} onLoadSuccess={() => console.log('yeehee')}>
+                    <Page width={1000} className={ResumeStyles['resume']} pageNumber={1}/>
+                </Document> }>
+            </Window>
     )
 }
 

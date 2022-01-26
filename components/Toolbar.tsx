@@ -6,7 +6,7 @@ function Toolbar() {
 
     return (
         <div className={ToolbarStyle["toolbar"]}>
-            <BiHomeAlt size={20} color="white"/>
+            <BiHomeAlt className={ToolbarStyle['homeIcon']} size={20} color="white"/>
         </div>
 
         // TODO: Home icon top left, other icons?

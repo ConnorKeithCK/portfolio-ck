@@ -5,12 +5,11 @@ interface IWindowProps {
     windowContent: React.ReactNode;
 }
 
-function Window() {
-
+const Window: React.FC<IWindowProps> = ({ windowContent }) => {
     return (
         <div className={WindowStyles["wrapper"]}>
             <div className={WindowStyles["bar"]}></div>
-            <div className={WindowStyles["content"]}></div>
+            <div className={WindowStyles["content"]}>{windowContent}</div>
         </div>
     )
 }
